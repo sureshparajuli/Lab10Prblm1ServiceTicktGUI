@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.TicketManager">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="940" height="349"/>
+    </constraints>
+    <properties/>
+    <border type="etched">
+      <font/>
+    </border>
+    <children>
+      <component id="74cd2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Enter Problem:"/>
+        </properties>
+      </component>
+      <component id="5fba3" class="javax.swing.JTextField" binding="textDescription">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <columns value="5"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="40799" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Who reported this issue?"/>
+        </properties>
+      </component>
+      <component id="83d4b" class="javax.swing.JTextField" binding="textReporter">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <columns value="5"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2ed3c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Enter priority for the issue:"/>
+        </properties>
+      </component>
+      <component id="38a60" class="javax.swing.JButton" binding="enterTicketButton">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <hideActionText value="true"/>
+          <horizontalAlignment value="2"/>
+          <text value="1. Enter Ticket:"/>
+        </properties>
+      </component>
+      <component id="391a8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Enter ID of ticket to delete:"/>
+        </properties>
+      </component>
+      <component id="1079e" class="javax.swing.JTextField" binding="textTicketId">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <columns value="5"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f0d83" class="javax.swing.JButton" binding="deleteByIdButton">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <text value="2. Delete by Id "/>
+        </properties>
+      </component>
+      <component id="ee8b8" class="javax.swing.JButton" binding="deleteByIssueButton">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <text value="3. Delete By Issue"/>
+        </properties>
+      </component>
+      <component id="a61b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Enter Issue:"/>
+        </properties>
+      </component>
+      <component id="5802e" class="javax.swing.JTextField" binding="textIssue">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <columns value="5"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d29d9" class="javax.swing.JButton" binding="searchByNameButton">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="4. Search By Name"/>
+        </properties>
+      </component>
+      <component id="ffcd5" class="javax.swing.JButton" binding="displayAllTicketsButton">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="5. Display All Tickets"/>
+        </properties>
+      </component>
+      <component id="524e4" class="javax.swing.JButton" binding="quitButton">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="6. Quit"/>
+        </properties>
+      </component>
+      <hspacer id="53f04">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="91fd5">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="72e78">
+        <constraints>
+          <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="4bec8">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="b657d">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="33c3d">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="9c80f">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="67f52">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <component id="a419b" class="javax.swing.JComboBox" binding="comboBoxPriority">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="5"/>
+          </model>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="eb06" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Enter Problem To Search:"/>
+        </properties>
+      </component>
+      <component id="780ab" class="javax.swing.JTextField" binding="textDescriptionToSearch">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <columns value="5"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="edbf7" class="javax.swing.JLabel" binding="showMessageLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="~message shown here ~"/>
+        </properties>
+      </component>
+      <component id="45485" class="javax.swing.JList" binding="list1" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="8" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.5" weighty="0.5" ipadx="100" ipady="100"/>
+        </constraints>
+        <properties>
+          <model/>
+        </properties>
+      </component>
+      <component id="2ee44" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="What is the resolution description?"/>
+        </properties>
+      </component>
+      <component id="a740d" class="javax.swing.JTextField" binding="textResolutionDescription">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="1" left="1" bottom="1" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <columns value="5"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
